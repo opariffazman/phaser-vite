@@ -13,5 +13,6 @@ module.exports = {
   rules: {
     'no-unused-vars': 'warn',
     camelcase: ['error', { properties: 'always' }]
-  }
+  },
+  sourceType: module
 }
