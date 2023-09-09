@@ -1,18 +1,38 @@
 {
-	"name": "phaser3-vite-template",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
-	"scripts": {
-		"start": "vite",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"eslint": "^8.25.0",
-		"vite": "^3.1.0"
-	},
-	"dependencies": {
-		"phaser": "^3.55.2"
-	}
+  "name": "phaser-vite",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "description": "> Make Phaser 3 games with modern frontend tooling.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opariffazman/phaser-vite.git"
+  },
+  "keywords": [
+    "phaser3"
+  ],
+  "author": "opariffazman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opariffazman/phaser-vite/issues"
+  },
+  "homepage": "https://github.com/opariffazman/phaser-vite#readme"
 }
